@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | TechJex</title>
+<meta name="description" content="Get in touch about a video editing project — YouTube, podcast, or short-form content.">
+<link rel="icon" href="./assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="nav-bar">
+  <a class="brand" href="./index.html">
+    <img src="./assets/logo.png" alt="TechJex logo">
+    <span>TechJex<br><small>Edit &amp; Build</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./services.html">Services</a>
+    <a href="./portfolio.html">Portfolio</a>
+    <a href="./contact.html" aria-current="page">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn btn-primary" href="./contact.html">Start a project</a>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero wrap">
+  <span class="eyebrow">Contact</span>
+  <h1>Send the footage. Or just say hello first.</h1>
+  <p class="lead">A short message about the project and the platform it's for is enough to get a straight answer back, turnaround, fit, and next steps.</p>
+</section>
+
+<section class="section wrap">
+  <div class="contact-grid">
+
+    <form class="contact-form reveal" action="mailto:hello@techjex.com" method="post" enctype="text/plain">
+      <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="form-field">
+        <label for="project">Project type</label>
+        <select id="project" name="project">
+          <option>YouTube long-form</option>
+          <option>Podcast editing</option>
+          <option>Short-form / social cuts</option>
+          <option>Color grading only</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="footage">Footage link (optional)</label>
+        <input type="url" id="footage" name="footage" placeholder="Google Drive, Dropbox, or WeTransfer link">
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Tell me about the footage, the platform, and any deadline."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+    </form>
+
+    <div class="contact-info">
+      <div class="info-row">
+        <div><b>Email</b><a href="mailto:hello@techjex.com">hello@techjex.com</a></div>
+      </div>
+      <div class="info-row">
+        <div><b>Upwork</b><a href="https://www.upwork.com/freelancers/~0199cee645f09aa806" target="_blank" rel="noopener">View profile &amp; hire directly</a></div>
+      </div>
+      <div class="info-row">
+        <div><b>Facebook</b><a href="https://www.facebook.com/TechJex/" target="_blank" rel="noopener">facebook.com/TechJex</a></div>
+      </div>
+      <div class="info-row">
+        <div><b>Based in</b><span>General Trias, Cavite, Philippines</span></div>
+      </div>
+      <div class="info-row">
+        <div><b>Response time</b><span>Usually within one business day</span></div>
+      </div>
+      <div class="note-box">
+        Placeholder contact email shown above update <span class="tc">hello@techjex.com</span> to the real address once it's confirmed.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="footer wrap">
+  <div class="footer-top">
+    <div>
+      <a class="footer-brand" href="./index.html"><img src="./assets/logo.png" alt="TechJex logo"><span>TechJex</span></a>
+      <p>Video editing and web development for YouTube channels, podcasters, and brands who need footage cut and sites built that actually get used.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Pages</h5>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+    <div class="footer-links">
+      <h5>Elsewhere</h5>
+      <a href="https://www.upwork.com/freelancers/~0199cee645f09aa806" target="_blank" rel="noopener">Upwork profile</a>
+      <a href="https://www.facebook.com/TechJex/" target="_blank" rel="noopener">Facebook page</a>
+      <a href="./contact.html">Email &amp; contact form</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 TechJex - Video Editing &amp; Web Development.</span>
+    <span>General Trias, Cavite, Philippines</span>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

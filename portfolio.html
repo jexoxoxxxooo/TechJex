@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | TechJex</title>
+<meta name="description" content="Video editing portfolio and workflow for TechJex - YouTube, podcast, and short-form projects, with an interactive look at the editing process.">
+<link rel="icon" href="./assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="nav-bar">
+  <a class="brand" href="./index.html">
+    <img src="./assets/logo.png" alt="TechJex logo">
+    <span>TechJex<br><small>Edit &amp; Build</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./services.html">Services</a>
+    <a href="./portfolio.html" aria-current="page">Portfolio</a>
+    <a href="./contact.html">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="btn btn-primary" href="./contact.html">Start a project</a>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero wrap">
+  <span class="eyebrow">Portfolio</span>
+  <h1>Two crafts. One workflow.</h1>
+  <p class="lead">Client videos are live below, organized the same way they're delivered, long-form, podcast, and short-form. TechJex's newest niche, web development, follows underneath with responsive sites, Webflow builds, and internal systems.</p>
+</section>
+
+<section class="section wrap section-tight">
+  <div class="editor-panel reveal">
+    <div class="editor-panel-head">
+      <span class="tc">Sample_Project_v3.timeline</span>
+      <div class="editor-toggle">
+        <button data-grade-btn="raw" class="active">Raw</button>
+        <button data-grade-btn="graded">Graded</button>
+      </div>
+    </div>
+    <div class="preview-frame" data-preview-frame>
+      <div class="grain"></div>
+      <div class="center-label">
+        <b data-preview-label>Raw ingest</b>
+        <span>Interactive preview of the grading pass every project gets</span>
+      </div>
+      <div class="waveform" aria-hidden="true"></div>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span class="tlabel">V1</span>
+        <div class="track-lane">
+          <div class="playhead"></div>
+          <div class="clip" style="left:3%; width:22%;">Interview A</div>
+          <div class="clip" style="left:27%; width:14%;">B-Roll</div>
+          <div class="clip" style="left:43%; width:30%;">Interview B</div>
+          <div class="clip" style="left:75%; width:18%;">B-Roll</div>
+        </div>
+      </div>
+      <div class="track">
+        <span class="tlabel">A1</span>
+        <div class="track-lane">
+          <div class="clip audio" style="left:3%; width:90%;">Dialogue</div>
+        </div>
+      </div>
+      <div class="track">
+        <span class="tlabel">A2</span>
+        <div class="track-lane">
+          <div class="clip audio" style="left:0%; width:100%;">Music bed</div>
+        </div>
+      </div>
+    </div>
+    <div class="editor-panel-foot">
+      <span>4 clips · 2 audio tracks</span>
+      <span>1080p · 24fps</span>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="video-editing">
+  <div class="section-divider"><span class="num">01</span><h2 style="margin:0; font-size:1rem; letter-spacing:.1em;">VIDEO EDITING</h2><span class="line"></span></div>
+
+  <div class="portfolio-group">
+    <div class="group-title">
+      <div><span class="eyebrow">Long-Form</span><h2>YouTube &amp; Long-Form</h2></div>
+      <p>Full-length edits built around pacing, b-roll, and a structure that holds attention start to finish.</p>
+    </div>
+    <div class="portfolio-grid">
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/bts-40th-anniversary.jpg">
+            <source src="./assets/videos/bts-40th-anniversary.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>BTS - 40th Anniversary</h3><span class="status open">Client work</span></div>
+          <p>Corporate anniversary recap edit, paced for a company-wide YouTube share.</p>
+          <div class="tag-row"><span class="tag">YouTube</span><span class="tag">Corporate</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/bts-sales-operating-system.jpg">
+            <source src="./assets/videos/bts-sales-operating-system.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>BTS - Sales Operating System</h3><span class="status open">Client work</span></div>
+          <p>Internal walkthrough of a sales operating system, edited for clarity over flash.</p>
+          <div class="tag-row"><span class="tag">Internal Training</span><span class="tag">Explainer</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/scaling-with-saas.jpg">
+            <source src="./assets/videos/scaling-with-saas.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Scaling with SaaS</h3><span class="status open">Client work</span></div>
+          <p>SaaS-focused explainer edit built around a clear growth narrative.</p>
+          <div class="tag-row"><span class="tag">SaaS</span><span class="tag">Explainer</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/vimscore.jpg">
+            <source src="./assets/videos/vimscore.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Vimscore</h3><span class="status open">Client work</span></div>
+          <p>Long-form product explainer edit, paced for a YouTube audience.</p>
+          <div class="tag-row"><span class="tag">Product</span><span class="tag">YouTube</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="portfolio-group">
+    <div class="group-title">
+      <div><span class="eyebrow">Audio-First</span><h2>Podcast Production</h2></div>
+      <p>Descript-based cleanup and structure for interview and solo-format podcasts, video or audio-only.</p>
+    </div>
+    <div class="portfolio-grid">
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/intro-hr-doctor.jpg">
+            <source src="./assets/videos/intro-hr-doctor.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Intro - The HR Doctor</h3><span class="status open">Client work</span></div>
+          <p>Show open built to set the tone for The HR Doctor in under ten seconds.</p>
+          <div class="tag-row"><span class="tag">Show Open</span><span class="tag">Podcast</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/nanitor-intro.jpg">
+            <source src="./assets/videos/nanitor-intro.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Nanitor - Intro</h3><span class="status open">Client work</span></div>
+          <p>Branded intro cut for the Nanitor show, built for consistent episode-to-episode identity.</p>
+          <div class="tag-row"><span class="tag">Branding</span><span class="tag">Show Open</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/peapodcast-intro-outro.jpg">
+            <source src="./assets/videos/peapodcast-intro-outro.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Peapodcast — Intro &amp; Outro</h3><span class="status open">Client work</span></div>
+          <p>Matching open and close for Peapodcast, built for consistent episode branding.</p>
+          <div class="tag-row"><span class="tag">Intro/Outro</span><span class="tag">Podcast</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame">
+          <video controls preload="none" playsinline poster="./assets/posters/sidechick-intro.jpg">
+            <source src="./assets/videos/sidechick-intro.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>SideChick - Show Intro</h3><span class="status open">Client work</span></div>
+          <p>Title-sequence style intro edit built for the SideChick show.</p>
+          <div class="tag-row"><span class="tag">Title Sequence</span><span class="tag">Show Open</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="portfolio-group">
+    <div class="group-title">
+      <div><span class="eyebrow">Fast Turnaround</span><h2>Short-Form &amp; Social</h2></div>
+      <p>Vertical cuts built for the scroll - a hook up front, captions burned in, no wasted seconds.</p>
+    </div>
+    <div class="portfolio-grid">
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame linkedin">
+          <video controls preload="none" playsinline poster="./assets/posters/comp-linkedin.jpg">
+            <source src="./assets/videos/comp-linkedin.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>LinkedIn Ad Cut</h3><span class="status open">Client work</span></div>
+          <p>Vertical-leaning cut reformatted for native LinkedIn feed placement.</p>
+          <div class="tag-row"><span class="tag">LinkedIn</span><span class="tag">4:5</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame portrait">
+          <video controls preload="none" playsinline poster="./assets/posters/hrdr-cruise.jpg">
+            <source src="./assets/videos/hrdr-cruise.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>HRDR - Cruise (Last Chance)</h3><span class="status open">Client work</span></div>
+          <p>Vertical promo cut with a hook-first structure for a limited-time offer.</p>
+          <div class="tag-row"><span class="tag">9:16</span><span class="tag">Promo</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card video-card reveal">
+        <div class="video-frame portrait">
+          <video controls preload="none" playsinline poster="./assets/posters/txyz.jpg">
+            <source src="./assets/videos/txyz.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>TXYZ</h3><span class="status open">Client work</span></div>
+          <p>Extended vertical cut for social, paced for scroll-stopping retention.</p>
+          <div class="tag-row"><span class="tag">9:16</span><span class="tag">Social</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="web-development">
+  <div class="section-divider"><span class="num">02</span><h2 style="margin:0; font-size:1rem; letter-spacing:.1em;">WEB DEVELOPMENT</h2><span class="line"></span></div>
+  <div class="section-head">
+    <div><span class="eyebrow">New niche</span><h2>TechJex now builds websites too.</h2></div>
+    <p>Live client sites, Webflow builds, and an internal system project, the same practical, client-facing approach carried over from the edit bay.</p>
+  </div>
+
+  <div class="portfolio-group">
+    <div class="group-title">
+      <div><span class="eyebrow">Website Work</span><h2>Responsive Websites &amp; Brand</h2></div>
+      <p>Client-facing pages built to present services clearly, feel professional, and work across screen sizes.</p>
+    </div>
+    <div class="portfolio-grid">
+      <a class="portfolio-card media-card clickable reveal" href="https://infinitebeautyraquel.com/" target="_blank" rel="noopener">
+        <div class="portfolio-img"><img src="./assets/webdev/ib.jpg" alt="Infinite Beauty Raquel screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Infinite Beauty Raquel</h3><span class="status live">Live</span></div>
+          <p>E-commerce website for beauty products with front-end and back-end development, responsive experience, and UI/UX improvements.</p>
+          <div class="tag-row"><span class="tag">E-commerce</span><span class="tag">UI/UX</span><span class="tag">Responsive</span></div>
+        </div>
+      </a>
+      <a class="portfolio-card media-card clickable reveal" href="https://merakwellnesscenter.com/" target="_blank" rel="noopener">
+        <div class="portfolio-img"><img src="./assets/webdev/merak-wellness.jpg" alt="Merak Wellness Center screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Merak Wellness Center</h3><span class="status live">Live</span></div>
+          <p>Wellness-centered website focused on therapy, counseling, and personalized care services with calm brand presentation.</p>
+          <div class="tag-row"><span class="tag">Wellness</span><span class="tag">Web Design</span><span class="tag">Brand</span></div>
+        </div>
+      </a>
+      <a class="portfolio-card media-card clickable reveal" href="https://lavishrejuvenations.com/" target="_blank" rel="noopener">
+        <div class="portfolio-img"><img src="./assets/webdev/lr.jpg" alt="Lavish Rejuvenations screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Lavish Rejuvenations</h3><span class="status live">Live</span></div>
+          <p>Aesthetic and wellness website for skincare, body contouring, and rejuvenation services.</p>
+          <div class="tag-row"><span class="tag">Aesthetics</span><span class="tag">Landing Page</span><span class="tag">Brand</span></div>
+        </div>
+      </a>
+      <a class="portfolio-card media-card clickable reveal" href="https://mfsofva.com/" target="_blank" rel="noopener">
+        <div class="portfolio-img"><img src="./assets/webdev/maternal.jpg" alt="Maternal Fetal Specialist screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Maternal Fetal Specialist</h3><span class="status live">Live</span></div>
+          <p>Healthcare website for maternal fetal medicine, high-risk pregnancy care, and patient-focused content.</p>
+          <div class="tag-row"><span class="tag">Healthcare</span><span class="tag">Content</span><span class="tag">Responsive</span></div>
+        </div>
+      </a>
+      <article class="portfolio-card media-card reveal">
+        <div class="portfolio-img"><img src="./assets/webdev/defi-apes.jpg" alt="Defiapes screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Defiapes</h3><span class="status">Preview</span></div>
+          <p>Cryptocurrency listing platform concept with categories for deployers, developers, and influencers.</p>
+          <div class="tag-row"><span class="tag">Web App</span><span class="tag">Crypto</span></div>
+        </div>
+      </article>
+      <article class="portfolio-card media-card reveal">
+        <div class="portfolio-img"><img src="./assets/webdev/noir-hotel.jpg" alt="Noir Hotel screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Noir Hotel</h3><span class="status">Preview</span></div>
+          <p>Hospitality website concept with elegant visual direction and a hotel-style booking experience.</p>
+          <div class="tag-row"><span class="tag">Hospitality</span><span class="tag">Concept</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="portfolio-group">
+    <div class="group-title">
+      <div><span class="eyebrow">System</span><h2>Internal System Project</h2></div>
+      <p>PHP and MySQL system project focused on records, inventory, notifications, and print-ready outputs.</p>
+    </div>
+    <div class="portfolio-grid">
+      <article class="portfolio-card media-card reveal">
+        <div class="portfolio-img"><img src="./assets/webdev/borrower-system.jpg" alt="Automated Borrower's Equipment Application screenshot" loading="lazy"></div>
+        <div class="portfolio-body">
+          <div class="portfolio-top"><h3>Automated Borrower's Equipment Application</h3><span class="status">Preview</span></div>
+          <p>PHP and MySQL web app for equipment borrowing, inventory monitoring, overdue notifications, and printable borrower slips.</p>
+          <div class="tag-row"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Inventory</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <span class="eyebrow" style="justify-content:center;">Let's talk</span>
+    <h2>Have a video or a website project ready?</h2>
+    <p>Send over the footage, the brief, or both, TechJex now handles the edit and the build.</p>
+    <a class="btn btn-primary" href="./contact.html">Start a project</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer wrap">
+  <div class="footer-top">
+    <div>
+      <a class="footer-brand" href="./index.html"><img src="./assets/logo.png" alt="TechJex logo"><span>TechJex</span></a>
+      <p>Video editing and web development for YouTube channels, podcasters, and brands who need footage cut and sites built that actually get used.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Pages</h5>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services</a>
+      <a href="./portfolio.html">Portfolio</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+    <div class="footer-links">
+      <h5>Elsewhere</h5>
+      <a href="https://www.upwork.com/freelancers/~0199cee645f09aa806" target="_blank" rel="noopener">Upwork profile</a>
+      <a href="https://www.facebook.com/TechJex/" target="_blank" rel="noopener">Facebook page</a>
+      <a href="./contact.html">Email &amp; contact form</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 TechJex — Video Editing &amp; Web Development.</span>
+    <span>General Trias, Cavite, Philippines</span>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
