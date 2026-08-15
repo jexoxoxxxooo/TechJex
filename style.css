@@ -355,6 +355,21 @@ p{ margin:0 0 1em; }
 }
 .playhead{ animation:playhead-drift 9s ease-in-out infinite; }
 
+/* ---------- client feedback ---------- */
+.feedback-strip{ margin-bottom:44px; }
+.feedback-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+.feedback-card{ background:var(--ink); padding:30px 26px; display:flex; flex-direction:column; gap:16px; transition:background .2s ease; }
+.feedback-card:hover{ background:var(--ink-2); }
+.feedback-rating{ display:flex; align-items:center; gap:8px; font-family:var(--mono); font-size:0.78rem; letter-spacing:.06em; color:var(--signal); }
+.feedback-rating svg{ width:14px; height:14px; fill:var(--signal); flex-shrink:0; }
+.feedback-quote{ color:var(--bone); font-size:0.95rem; line-height:1.6; margin:0; flex:1; }
+.feedback-quote::before{ content:"\201C"; }
+.feedback-quote::after{ content:"\201D"; }
+.feedback-meta{ display:flex; justify-content:space-between; align-items:flex-end; gap:10px; margin-top:auto; padding-top:16px; border-top:1px solid var(--line); }
+.feedback-meta b{ display:block; font-size:0.86rem; color:var(--bone); font-weight:600; }
+.feedback-meta .job-tag{ display:block; font-family:var(--mono); font-size:0.66rem; letter-spacing:.05em; text-transform:uppercase; color:var(--bone-faint); margin-top:3px; max-width:22ch; }
+@media (max-width:920px){ .feedback-grid{ grid-template-columns:1fr; } }
+
 /* ---------- reveal ---------- */
 .reveal{ opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
 .reveal.in{ opacity:1; transform:translateY(0); }
